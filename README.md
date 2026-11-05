@@ -114,3 +114,22 @@ Before you submit your solution, you need to save your progress with git.
 * Add your changes to the staging area by executing git add .
 * Create a commit by executing git commit -m "Your commit message"
 * Push your commits to GitHub by executing git push origin main
+
+## Completed Functionality
+
+Implemented Author, Book, and Contract classes to model a
+many-to-many relationship between authors and books.
+
+Contracts validate their author, book, date, and royalties.
+Methods retrieve related books, authors, and contracts, create
+contracts, calculate total royalties, and find contracts by date.
+
+## Testing
+
+With the virtual environment activated, run:
+
+    python -m pytest
+
+All 14 tests passed.
+
+![All 14 tests passing](screenshots/tests-passed.png)
